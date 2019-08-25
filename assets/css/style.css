@@ -6,7 +6,6 @@
     color: black;
     margin-top: 40px;
     font-family: 'BioRhyme', serif;
-    background: -webkit-linear-gradient(#eee,#4682B4);
 }
 
 /* general */
@@ -39,8 +38,8 @@
     font-weight: bold;
     color: black;
     padding: 10px;
-    background: -webkit-linear-gradient(#eee,#4682B4);
     font-family: 'BioRhyme', serif;
+    background: -webkit-linear-gradient(#eee,#4682B4);
 }
 /* media queries */
 
