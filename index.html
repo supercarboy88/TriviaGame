@@ -12,15 +12,24 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- Added link to the jQuery library -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- Google Font -->
+<link href="https://fonts.googleapis.com/css?family=BioRhyme&display=swap" rel="stylesheet">
 </head>
 <body>
-<div id = "wrapper">
-    <h1 id = "title">Trivia Game about Seattle Sports Teams</h1>
-        <!-- <h>How much do you know about Washington Sports Teams</h> for <header> -->
-    <div id = "subwrapper">
-        <button id = "start-game">Start</button>
+<!-- game header -->
+    <header id = "title">
+        <h1>Trivia Game about Seattle Sports Teams</h1>
+        <h>How much do you know about Washington Sports Teams</h> 
+    </header>
+<!-- game body -->
+    <div class="container" id = "wrapper">
+        <img id="background" src="assets/images/seattle_sports_teams_wallpaper.jpg">
+        <div class="row">
+            <div id = "subwrapper">
+                <button class="btn btn-info btn-block start-button" id = "start-game">Start</button>
+            </div>
+        </div>
     </div>
-</div>
     
 <script type="text/javascript" src="assets/javascript/app.js">
 </script>
