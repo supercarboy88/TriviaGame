@@ -38,7 +38,7 @@ var questions = [{
 
 var correct = 0;
 var incorrect = 0;
-var counter = 24;
+var counter = 32;
 
 function countdown(){
     counter--;
@@ -51,7 +51,7 @@ function countdown(){
 
 function startGame (){
     timer = setInterval(countdown,1000);
-    $('#subwrapper').prepend('<h2>Time Remaining: <span id = "counter">24</span> Seconds</h2)');
+    $('#subwrapper').prepend('<h2>Time Remaining: <span id = "counter">32</span> Seconds</h2)');
     $('#start-game').remove();
     for (var i = 0; i < questions.length; i++){
         $('#subwrapper').append('</br><h2>' + questions[i].question + '</h2>');
